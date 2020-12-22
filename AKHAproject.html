@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AKHA Project</title>
+    <style>
+        body {
+            font: 15px/1.5 arial, helvetica, sans-serif;
+            font-weight: 525;
+            padding: 0;
+            margin: 0;
+        }
+        /*Global*/
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .container.container1 {
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        /**Header**/
+        
+        header {
+            padding-top: 30px;
+            min-height: 70px;
+        }
+        
+        header a {
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+        }
+        
+        header li {
+            display: inline;
+            float: left;
+            padding: 0 15px 0 15px;
+        }
+        
+        header #branding {
+            float: left;
+            color: green;
+        }
+        
+        header #branding h1 {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        
+        header .active a {
+            color: green;
+        }
+        
+        button {
+            background-color: green;
+            border: none;
+            padding: 5px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            color: white;
+        }
+        
+        header a:hover {
+            cursor: pointer;
+            color: lightslategrey;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container container1">
+            <div id="branding">
+                <h1>AKHA</h1>
+            </div>
+            <nav>
+                <ul class="nav_links">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#news">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#join"><button>JOIN</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
