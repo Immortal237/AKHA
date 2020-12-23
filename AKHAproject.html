@@ -9,15 +9,13 @@
         body {
             font: 15px/1.5 arial, helvetica, sans-serif;
             font-weight: 525;
-            padding: 0;
-            margin: 0;
         }
         /*Global*/
         
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            /* width: 100vw;
+            /* margin: auto; */
+            /* overflow: hidden; */
         }
         
         .container.container1 {
@@ -84,7 +82,6 @@
         .img_background {
             background-image: url("Messi3.jpg");
             background-size: cover;
-            width: 100vw;
             height: 400px;
             opacity: 0.6;
             display: flex;
@@ -119,6 +116,25 @@
             background-color: grey;
             margin-right: 15px;
         }
+        .videoAndTexts{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-right: 200px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+        .divForTexts{
+            width: 300px;
+        }
+        .largeGreenText{
+            color: green;
+            font-weight: bolder;
+        }
+        .smallGreenText{
+            color: green;
+            font-weight: bolder;
+        }
     </style>
 </head>
 
@@ -151,9 +167,16 @@
         <div class="dot"></div>
         <div class="dot"></div>
     </div>
-    <div>
-
+    <div class="videoAndTexts">
+        <div>
+            <video src="./Messi_Medel.mp4">
+        </div>
+        <div class="divForTexts" >
+            <h2 class="largeGreenText">Why do we use it?</h2>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, dolores officiis. Magnam, accusantium adipisci quasi velit consectetur excepturi optio dicta cumque. Quasi sint molestiae ad dolor dolorum eum eius at!</span>
+            <h6 class="smallGreenText">SEE MORE</h6>
+        </div>
     </div>
-</body>
+
 
 </html>
